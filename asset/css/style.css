@@ -20,3 +20,147 @@ img{
     font-family: sans-serif;
     font-size: 40px;
 }
+
+.container{
+    background-color: white;
+    height: 80vh;
+    width: 150vh;
+    margin: 80px;
+    border-radius: 2%;
+}
+
+.smaller{
+    background-color: white;
+    height: 10%;
+    
+border-radius: 15%;
+
+}
+
+.button1, .button2{
+    height: 5vh;
+    text-align: center;
+    border-radius: 20%;
+    margin: 1%;
+}
+
+.button1{
+    background-color: lightblue;
+    width: 80px;
+    font-family: sans-serif;
+    color: white;
+    border: 1px solid grey;
+    margin-left: 5%;
+}
+
+.button2{
+    background-color: white;
+    width: 80px;
+    font-family: sans-serif;
+    color: grey;
+    border: 1px solid grey;
+
+}
+
+hr{
+   width: 100%;
+   height: 2px;
+   background-color: lightgrey;
+    
+
+}
+
+h2{
+    background-color: white;
+    display: inline-block;
+    margin: 3% 5%;
+    font-size: 30px;
+    
+  
+
+}
+
+h2::before{
+    content: '\25BE';
+}
+
+.sub{
+    margin-left: 1%;
+    background-color: white;
+    display: inline-block;
+    
+}
+
+#check{
+    border: 1px solid green;
+    background-color: white;
+    margin-left: 6%;
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    color: green;
+}
+
+.button3{
+    background-color: lightblue;
+    width: 80px;
+    height: 30px;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    margin-left: 1%;
+    border-radius: 25%;
+    text-align: center;
+}
+
+#x{
+    border: 1px solid red;
+    background-color: white;
+    margin-left: 6%;
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    color: red;
+}
+
+.button-violet{
+    background-color: violet;
+    width: 80px;
+    height: 30px;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    margin-left: 1%;
+    border-radius: 25%;
+    text-align: center;
+}
+
+.button-green{
+    background-color: green;
+    width: 80px;
+    height: 30px;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    margin-left: 1%;
+    border-radius: 25%;
+    text-align: center;
+}
+
+.button-orange{
+    background-color: orange;
+    width: 80px;
+    height: 30px;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    margin-left: 1%;
+    border-radius: 25%;
+    text-align: center;
+}
