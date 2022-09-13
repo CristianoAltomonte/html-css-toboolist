@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: lightgrey;
+    
 }  
 
 .head, img, .title{
@@ -23,7 +24,7 @@ img{
 
 .container{
     background-color: white;
-    height: 80vh;
+    height: auto;
     width: 150vh;
     margin: 80px;
     border-radius: 2%;
@@ -155,6 +156,18 @@ h2::before{
 
 .button-orange{
     background-color: orange;
+    width: 80px;
+    height: 30px;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    margin-left: 1%;
+    border-radius: 25%;
+    text-align: center;
+}
+
+.button-light-green{
+    background-color: lightgreen;
     width: 80px;
     height: 30px;
     font-family: sans-serif;
